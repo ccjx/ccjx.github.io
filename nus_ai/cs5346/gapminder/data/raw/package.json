@@ -1,0 +1,16 @@
+{
+  "name": "raw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "process.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node process.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^4.8.5",
+    "fuzzy-search": "^3.2.1"
+  }
+}
