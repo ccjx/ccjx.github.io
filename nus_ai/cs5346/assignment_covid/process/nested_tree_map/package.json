@@ -1,0 +1,16 @@
+{
+  "name": "nested_tree_map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "csv-parse": "^4.8.8",
+    "fuzzy-search": "^3.2.1"
+  }
+}
