@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-71638242-2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-71638242-2');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <title>CS5346 - HDB Resale Prices (S$/sqm)</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li><a href="#">CS5346 - HDB Resale Prices (S$/sqm)</a></li>
+                
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://www.linkedin.com/in/clarencecai/">Created by Clarence Cai</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                    <h1 style="text-align: center">HDB Resale Prices (S$/sqm)</h1>
+                    <div id="chart"></div>  
+                    <br />  
+                    <br />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                    <p style="text-align: center">Color opacity represents how close the price is to the highest price of that year.</p>
+            </div>
+        </div>
+        <div class="row" style="text-align: center;">
+            <button id="left-jump-button" title="Back: 3 years">⏪</button>
+            <button id="left-button" title="Back: 1 year">⬅️</button>
+            <button id="toggle-dir-button" title="Toggle Direction of Playback">↔️</button>
+            <button id="play-button" title="Play/Pause">⏸</button>
+            <button id="right-button" title="Forward: 1 year">➡️</button>
+            <button id="right-jump-button" title="Forward: 3 years">⏩</button>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                    <p style="text-align: center">[Contains information from OneMap planning areas and geocode data accessed on 20th-21st March 2020 from OneMap API which is made available under the terms of the Singapore Open Data Licence version 1.0 https://www.onemap.sg/legal/opendatalicence.html]</p>
+            </div>
+        </div>
+    </div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/d3.min.js"></script>
+<script src="js/topojson.min.js"></script>
+<script src="js/d3tip.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

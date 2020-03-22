@@ -1,0 +1,19 @@
+{
+  "name": "process-hdb-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "collate": "node collate.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@turf/turf": "^5.1.6",
+    "bottleneck": "^2.19.5",
+    "neat-csv": "^5.2.0",
+    "node-fetch": "^2.6.0"
+  }
+}
