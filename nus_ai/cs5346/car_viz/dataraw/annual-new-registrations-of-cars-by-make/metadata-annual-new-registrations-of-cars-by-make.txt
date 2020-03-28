@@ -1,0 +1,56 @@
+# Metadata for Annual New Registrations of Cars by Make
+---
+Identifier: '0d27545d-bb83-41ee-8a85-bbeae39a7e3a'
+Name: 'annual-new-registrations-of-cars-by-make'
+Title: 'Annual New Registrations of Cars by Make'
+Description:
+  - 'All cars newly registered by make within the report period.'
+  - ''
+Topics:
+  - 'Transport'
+Keywords:
+  - 'Motor Car'
+Publisher:
+  Name: 'Land Transport Authority'
+  Admin 1:
+    Name: 'Land Transport Authority'
+    Department: 'Land Transport Authority'
+    Email: 'Datamall@LTA.gov.sg'
+Sources:
+  - 'Land Transport Authority'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2005-01-01 to 2017-12-31'
+Last Updated: '2018-03-13T10:43:19.183770'
+Resources:
+  -
+    Identifier: '3fcc2131-28e4-40bb-9e92-680d0282399e'
+    Title: 'Total Annual New Registration By Make'
+    Url: 'https://storage.data.gov.sg/annual-new-registrations-of-cars-by-make/resources/total-annual-new-registration-by-make-2018-03-13T10-43-18Z.csv'
+    Format: 'CSV'
+    Coverage: '2005-01-01 to 2017-12-31'
+    Description:
+      - 'Figures include all cars exempted from tax or the Vehicle Quota System.'
+      - ''
+      - 'Taxis are excluded.'
+      - ''
+      - 'MVP02-2 (New car by make)'
+    Last Updated: '2018-03-13T10:43:18.797201'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'make'
+        Title: 'Make'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number'
+        Title: 'No. of New Registrations'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Vehicles'

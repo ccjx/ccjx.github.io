@@ -1,0 +1,89 @@
+# Metadata for Resident Long-Term Unemployment Rate, Annual
+---
+Identifier: 'cdb3d3bf-7c3e-41f4-8bdd-d57b46156a54'
+Name: 'resident-long-term-unemployment-rate'
+Title: 'Resident Long-Term Unemployment Rate, Annual'
+Description:
+  - '* Residents refer to Singapore Citizens and Permanent Residents.'
+  - '* Long-term unemployment rate is defined as the percentage of unemployed persons
+    who have been unemployed for at least 25 weeks to the labour force.'
+  - '* Annual figures are the simple averages of the non-seasonally adjusted unemployment
+    figures obtained at quarterly intervals.'
+  - '* Annual average data for 2000 are not available as data on duration of unemployment
+    was not collected in Population Census 2000 (June) which was conducted by Department
+    of Statistics, Ministry of Trade and Industry.'
+  - ''
+  - 'Source: Labour Force Survey, Manpower Research & Statistics Department, MOM,
+    except data for June 1995, and June 2005, which are from the General Household
+    Surveys 1995 & 2005 conducted by Department of Statistics, Ministry of Trade and
+    Industry.'
+Topics:
+  - 'Economy'
+Keywords:
+  - 'jobs'
+  - 'labour'
+  - 'long-term unemployed'
+  - 'long-term unemployment rate'
+  - 'resident'
+  - 'unemployment'
+Publisher:
+  Name: 'Ministry of Manpower'
+  Admin 1:
+    Name: 'Yee Si Hui'
+    Department: 'Manpower Research & Statistics Department, MOM'
+    Email: 'yee_si_hui@mom.gov.sg'
+  Admin 2:
+    Name: 'Ng Mun Yi'
+    Department: 'Manpower Research & Statistics Department, MOM'
+    Email: 'ng_mun_yi@mom.gov.sg'
+Sources:
+  - 'Ministry of Manpower'
+Source Url: 'https://stats.mom.gov.sg/Pages/Unemployment-Summary-Table.aspx'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '1992-01-01 to 2018-12-31'
+Last Updated: '2019-09-26T08:59:22.502640'
+Resources:
+  -
+    Identifier: '21ac477f-f591-4b2a-9bec-c81e83fe7263'
+    Title: 'Resident Long-Term Unemployment Rate (Annual)'
+    Url: 'https://storage.data.gov.sg/resident-long-term-unemployment-rate/resources/resident-long-term-unemployment-rate-annual-2019-09-26T08-59-22Z.csv'
+    Format: 'CSV'
+    Coverage: '1992-01-01 to 2018-12-31'
+    Description:
+      - '• Residents refer to Singapore Citizens and Permanent Residents.'
+      - ''
+      - '• Long-term unemployment rate is defined as the percentage of unemployed
+        persons who have been unemployed for at least 25 weeks to the labour force.'
+      - ''
+      - '• Annual figures are the simple averages of the non-seasonally adjusted unemployment
+        figures obtained at quarterly intervals.'
+      - ''
+      - '• Annual average data for 2000 are not available as data on duration of unemployment
+        was not collected in Population Census 2000 (June) which was conducted by
+        Department of Statistics, Ministry of Trade and Industry.'
+      - ''
+      - 'Source: Labour Force Survey, Manpower Research & Statistics Department, MOM,
+        except data for June 1995, and June 2005, which are from the General Household
+        Surveys 1995 & 2005 conducted by Department of Statistics, Ministry of Trade
+        and Industry.'
+    Last Updated: '2019-09-26T08:59:22.106082'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'residential_status'
+        Title: 'Residential status'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'long_term_unemployment_rate'
+        Title: 'Long Term Unemployment Rate'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 100, i.e. "100" represents
+          100%'

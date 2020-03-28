@@ -1,0 +1,64 @@
+# Metadata for Monthly New Registration of Cars by Make
+---
+Identifier: 'cdc44f25-d33e-4004-97c6-ed63263a0780'
+Name: 'monthly-new-registration-of-cars-by-make'
+Title: 'Monthly New Registration of Cars by Make'
+Description:
+  - 'All cars newly registered by make within the report period.'
+  - ''
+Topics:
+  - 'Transport'
+Keywords:
+  - 'COE'
+Publisher:
+  Name: 'Land Transport Authority'
+  Admin 1:
+    Name: 'Land Transport Authority'
+    Department: 'Land Transport Authority'
+    Email: 'Datamall@lta.gov.sg'
+Sources:
+  - 'Land Transport Authority'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Monthly'
+Coverage: '2016-01-01 to 2019-02-28'
+Last Updated: '2019-04-15T00:58:29.411772'
+Resources:
+  -
+    Identifier: '4d4e1688-fc99-48a0-b3e4-342ccbb6a543'
+    Title: 'New Registration of Cars by Make'
+    Url: 'https://storage.data.gov.sg/monthly-new-registration-of-cars-by-make/resources/new-registration-of-cars-by-make-2019-04-15T00-58-28Z.csv'
+    Format: 'CSV'
+    Coverage: '2016-01-01 to 2019-02-28'
+    Description:
+      - 'Monthly registration of new cars by vehicle make.'
+      - ''
+      - 'M03-Cars Regn by make'
+    Last Updated: '2019-04-15T00:58:28.451313'
+    Schema:
+      -
+        Name: 'month'
+        Title: 'Month'
+        Type: 'datetime'
+        Sub Type: 'month'
+        Format: 'YYYY-MM'
+      -
+        Name: 'make'
+        Title: 'Vehicle Make'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'fuel_type'
+        Title: 'Fuel Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'vehicle_type'
+        Title: 'Vehicle Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number'
+        Title: 'Number'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Vehicles'
