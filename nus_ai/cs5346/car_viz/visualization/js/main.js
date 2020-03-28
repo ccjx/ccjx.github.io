@@ -108,7 +108,7 @@ const groupBy = (items, key) => items.reduce(
 	{},
   );
 
-function renderBrandChart(svgG, xScale, yAxisScale, series, yAxisLabel, groups){
+function renderBrandChart(svgG, xScale, yAxisScale, series, yAxisLabel, groups, format=false){
 	let makeg = svgG
 	let g = makeg.append("g")
 	// Add the line
@@ -143,7 +143,12 @@ function renderBrandChart(svgG, xScale, yAxisScale, series, yAxisLabel, groups){
 		//     .attr("transform", "rotate(-40)")
 	var yAxisCall = d3
 	.axisLeft(yAxisScale)
-	.tickValues(null);
+	.tickValues(null)
+
+	if(format){
+		yAxisCall.tickFormat(d3.format(".0%"))
+	}
+	
 	g.append("g")
 		.attr("class", "y axis")
 		.call(yAxisCall)
@@ -473,7 +478,7 @@ Promise.all([
 
 	groups.reverse()
 	renderBrandChart(brandSvgG, brand_x, brand_yAxisScale, series, "Cars Sold", groups)
-	renderBrandChart(brandPerSvgG, brand_x, brandPercent_yAxisScale, seriesGroupedByDates, "Car Sold (%)", groups)
+	renderBrandChart(brandPerSvgG, brand_x, brandPercent_yAxisScale, seriesGroupedByDates, "Car Sold (%)", groups, true)
 
 	flatCoeReturns = prepareCoeData(coeResults)
 	flatCoeReturns = flatCoeReturns.map(fc => {
